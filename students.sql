@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS students (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	name text NOT NULL,
+	grade float NOT NULL
+);
